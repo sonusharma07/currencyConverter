@@ -1,0 +1,40 @@
+Editors can be a polarizing topic. This is how I'm getting around - none of this is required for this course, it's just some info to get your text editor up and running if you're not all-in on another platform already.
+
+What Editor Do I Use?
+Throughout this course I use the Visual Studio Code editor by Microsoft. It's a free editor that works on Mac, Linux, and Windows. I recently switched to it from Atom (which is also a great editor). I'm not going to go deep into how to use this editor but below are a few helpful hints if you want to go this route.
+
+Get my VSCode Configuration
+If you want to get my exact Virtual Studio Code configuration you can do so via the Settings Sync extension. My configuration is available on this Gist. Read the documentions for Settings Sync on how to use it.
+
+Project Settings
+VSCode will create a .vscode/ directory in your project. Inside of that folder is a settings.json. I've enabled Prettier-ESLint and turned format on save on. This will let me easily format my code through prettier and eslint.
+
+{
+  "prettier.eslintIntegration": true,
+  "editor.formatOnSave": true
+}
+Packages I Use for React Native Development
+The following packages are directly related to React Native development...
+
+React Native Tools
+
+Brings knowledge of the React Native API to VSCode's Intellisense auto-complete, in addition to other things.
+
+React-Native/React/Redux snippets for es6/es7
+
+Useful snippets to save keystrokes.
+
+Other VSCode Extensions I Use
+You can find these extensions in the Virtual Studio Marketplace.
+
+Prettier - JavaScript formatter
+ESLint
+vscode-icons
+Rainbow Brackets
+Color Highlight
+Auto Close Tag
+Auto Complete Tag
+Auto Rename Tag
+Settings Sync
+Want More Details?
+Since this is a very popular question I put together a short course on exactly how I start React Native projects and my development environment. Get it at How to Set up a New React Native Project.
