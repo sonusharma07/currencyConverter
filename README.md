@@ -5,5 +5,5 @@ use expo for app preview
 
 Before this install expo app on your android device
 
-#setting Up
+# setting Up
 - Read Notes in Notes dir
